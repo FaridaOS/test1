@@ -18,6 +18,7 @@ cache:
  - tidyverse
  -kableExtra
 
+ if: type = pull_request
  
  script :
 - R -f deploy.R
