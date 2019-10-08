@@ -18,7 +18,9 @@ cache:
  - tidyverse
  -kableExtra
 
- if: type = pull_request
+ branches:
+  only: 
+    - master
  
  script :
 - R -f deploy.R
