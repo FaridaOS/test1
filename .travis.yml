@@ -16,7 +16,7 @@ cache:
  - rsconnect
  - shiny
  - tidyverse
- -kableExtra
+ - kableExtra
 
  branches:
   only: 
